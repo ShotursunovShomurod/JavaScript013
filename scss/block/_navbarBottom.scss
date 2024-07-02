@@ -1,0 +1,26 @@
+.navbarBottom{
+    width: 100%;
+    background: #232f3e;
+    .navbarBottom__wrapper{
+        width: 100%;
+        .navbarBottom__content{
+            width: 100%;    
+            .navbarBottom__collection{
+                overflow: auto;
+               min-width: 100%;
+                display: flex;
+                gap: 30px;
+                li{
+                    padding: 10px 2px;
+                    color: #fff;
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    &:hover{
+                        border: 1px solid #fff;
+                    }
+                }
+            }
+        }
+    }
+}

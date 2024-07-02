@@ -1,0 +1,129 @@
+.hero{
+    width: 100%;
+    .hero__wrapper {
+      width: 100%;
+      .hero__carusrl {
+        width: 100%;
+      }
+      .hero__block {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        z-index: 900;
+        gap: 10px;
+        .hero__cards {
+          width: 24%;
+          background: #fff;
+          padding: 20px;
+          .hero__text {
+            padding-top: 20px;
+            p {
+              color: #4296a5;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+          .hero__title {
+            width: 100%;
+            p {
+              font-size: 20px;
+              font-weight: 700;
+            }
+          }
+          .hero__imgs {
+            width: 100%;
+            width: 100%;
+            height: 273px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: 100%;
+            }
+          }
+        }
+        .hero__card {
+          width: 24%;
+          display: flex;
+          padding: 20px;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          background: #fff;
+          .hero__text {
+            padding-top: 20px;
+            width: 100%;
+            p {
+              color: #4296a5;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+          .hero__text {
+            width: 100%;
+          }
+          .hero__title {
+            width: 100%;
+            p {
+              font-size: 20px;
+              font-weight: 700;
+            }
+          }
+          .hero__img {
+            img{
+                width: 100%;
+            }
+            width: 50%;
+          }
+        }
+      }
+    }
+}
+
+
+
+@media(max-width:1000px){
+    .hero{
+        .hero__wrapper{
+            .hero__block{
+               .hero__cards{
+                width: 32%;
+               } 
+               .hero__card{
+                width: 32%;
+               }
+            }
+        }
+    }
+}
+
+@media(max-width:650px){
+    .hero{
+        .hero__wrapper{
+            .hero__block{
+               .hero__cards{
+                width: 48%;
+               } 
+               .hero__card{
+                width: 48%;
+               }
+            }
+        }
+    }
+}
+@media(max-width:500px){
+    .hero{
+        .hero__wrapper{
+            .hero__block{
+               .hero__cards{
+                width: 100%;
+               } 
+               .hero__card{
+                width: 100%;
+               }
+            }
+        }
+    }
+}
